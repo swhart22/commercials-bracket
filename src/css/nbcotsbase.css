@@ -1,0 +1,168 @@
+body { background-color: #FFF !important; }
+
+.headline { 
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	color: #333;
+	margin-bottom: 20px;
+	line-height: 1.2em;
+}
+
+.blurb {
+	font-family: 'Arimo', sans-serif;
+	font-size: 18px;
+	color: #333;
+	margin: 20px 0 40px 0;
+}
+
+
+p {
+	font-family: 'Arimo', sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+.btn {
+	background-color: #23538e;
+	padding: 10px 15px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	color: #FFF;
+	border-radius: 10px;
+	display: inline-block;
+	text-shadow: 1px 1px #000000;
+}
+.btn:hover {
+	color: #FFF;
+	background-color: #000;
+	cursor: pointer;
+}
+
+.credits {
+	font-family: 'Arimo', sans-serif;
+	font-size: 12px;
+	color: #999;
+	margin-top: 10px;
+}
+/*custom for graphic*/
+#container{
+	position:relative;
+    width:960px;
+    height:550px;
+
+}
+.labels{ 
+	font-family:'Roboto', sans-serif;
+	position:absolute;
+	font-size:14px;
+	background-color:#fff;
+	border-radius: 5px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#ccc;
+	padding:5px;
+	width:100px;
+	min-height:32px;
+	display:flex;
+	align-items:center;
+	/*justify-content:center;*/
+
+}
+.label-pos{
+	/*position: relative;
+	top: 50%;
+	transform: translateY(-50%);*/
+}
+.winnerlabel{
+	font-size:20px;
+	text-align:center;
+	width:130px;
+}
+/*for polls*/
+#polls{
+	width:960px;
+}
+#polls-round-title p{
+	font-size:20px;
+	font-family:'Roboto',sans-serif;
+	font-weight:700;
+}
+.poll-row{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin-bottom:50px;
+}
+
+.poll-title{
+	font-size:20px;
+	font-family:'Roboto',sans-serif;
+	font-weight:200;
+}
+.poll-col-1{
+	width:300px;
+}
+.poll-col-2{
+	width:300px;
+}
+#vid-error{
+	text-align:center;
+}
+.excitemInfo{
+	/*display:inline-block;*/
+	width:305px;
+
+}
+
+@media (max-width: 960px ) {
+	#container{
+		width:100%;
+	}
+	#polls{
+		width:100%;
+	}
+	.poll-row{
+		flex-wrap:wrap;
+	}
+	.poll-col-1{
+		width:100%;
+	}
+	.yout-embed{
+		width:100%;
+	}
+	.poll-col-2{
+		width:100%;
+	}
+	.excitemInfo{
+		width:100%;
+	}
+	.poll-title{
+		
+	}
+}
+
+@media (max-width: 500px ) { 
+	.labels{
+		font-size:10px;
+		width:80px;
+		min-height:23px;
+		padding:1.5px;
+	}
+	.round2-label{
+		width:60px;
+		vertical-align:middle;
+	}
+	.round3-label{
+		width:60px;
+		vertical-align:middle;
+	}
+	.winnerlabel{
+		font-size:14px;
+	}
+	#container{
+		height:580px;
+	}
+
+}
