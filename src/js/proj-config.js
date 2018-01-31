@@ -49,6 +49,8 @@ getWorkbook(metadata['key']).then(workbook => {
 			o['Competitor - Round 4'] = d['competitor-round4'];
 			o['Poll ID - Round 4'] = d['pollid-round4'];
 			o['Result - Round 4 (winner)'] = d['result-round4winner'];
+
+			o['WINNER'] = d['winner'];
 			
 			data.push(o);
 		});
